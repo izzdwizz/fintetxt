@@ -14,7 +14,7 @@ const imageSchema = new mongoose.Schema({
     default: Date.now
   }
 });
-
+// File Schema model
 const fileSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
